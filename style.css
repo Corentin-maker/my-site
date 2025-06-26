@@ -5,11 +5,13 @@ body
 
 #carte
 {
+
     width: 800px;
     margin:0 auto;
     background-color: white;
     text-align: center;
     align-content: center;
+
 }
 
 h2
@@ -26,4 +28,13 @@ h2
 #text-contacte
 {
     text-align: center;
+}
+
+
+
+body {
+    background-image: url('carte\ bleue.jpg'); /* Remplacez par le chemin de votre image */
+    background-size:cover; /* L'image couvre tout l'écran */
+    background-repeat: no-repeat; /* Pas de répétition de l'image */
+    background-position:; /* Centrer l'image */
 }
